@@ -148,7 +148,7 @@ class QQGroups(object):
                 temp.append(BytesIO())
             for i, kw in enumerate(kws[:10]):
                 groups = [(u'群名称', u'群号', u'群人数', u'群上限',
-                           u'群主', u'地域', u'分类', u'标签', u'群简介')]
+                           u'群主', u'地域', u'分类', u'标签', u'群简介',u'群成员QQ号')]
                 gListRaw = []
                 for page in xrange(0, pn):
                     # sort type: 0 deafult, 1 menber, 2 active
